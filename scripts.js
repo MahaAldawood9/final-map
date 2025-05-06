@@ -22,41 +22,46 @@ map.on('load', () => {
         paint: {
             'circle-radius': 6,
             'circle-color': '#999999', // default gray
-            'circle-opacity': 0.3
+            'circle-opacity': 0.2
         }
     });
 });
 
+
+// filter by victim type
 function filterCrashes(property) {
     activeProperty = property;
 
     map.setPaintProperty('crash-points', 'circle-color', [
         'case',
-        ['>', ['get', property], 0], '#ff6600', // highlight match
-        '#999999' // others gray
+        ['>', ['get', property], 0], '#ff6600',
+        '#999999' 
     ]);
 
     map.setPaintProperty('crash-points', 'circle-opacity', [
         'case',
-        ['>', ['get', property], 0], 0.9,
+        ['>', ['get', property], 0], 0.4,
         0.2
     ]);
 }
 
+// show all button
 function resetFilter() {
     activeProperty = null;
 
     map.setPaintProperty('crash-points', 'circle-color', '#999999');
-    map.setPaintProperty('crash-points', 'circle-opacity', 0.6);
+    map.setPaintProperty('crash-points', 'circle-opacity', 0.2);
 }
 
 
+// popups when clicked on markers
 map.on('click', 'crash-points', (e) => {
     const props = e.features[0].properties;
   
     let incidentType = '';
     let numberOfKilled = 0;
   
+
     // Determine if it's a cyclist or pedestrian incident
     if (props.number_of_cyclist_killed > 0) {
       incidentType = 'Cyclist';
@@ -66,10 +71,13 @@ map.on('click', 'crash-points', (e) => {
       numberOfKilled = props.number_of_pedestrians_killed;
     }
   
+    // text in the box
     const html = `
-    ${numberOfKilled} ${incidentType} Killed due to ${props.contributing_factor_vehicle_1} on ${props.crash_date}
+    <strong>${numberOfKilled}</strong> ${incidentType} Killed due to <strong>${props.contributing_factor_vehicle_1}</strong> on ${props.crash_date}
  
     `;
+
+    
   
     new mapboxgl.Popup()
       .setLngLat(e.lngLat)
@@ -78,16 +86,9 @@ map.on('click', 'crash-points', (e) => {
   });
 
 
-  function filterByContributingFactor(factor) {
-    selectedFactor = factor;
 
-    // Update the filter to show only features with the selected contributing factor
-    map.setFilter('crash-points', ['==', ['get', 'contributing_factor_vehicle_1'], selectedFactor]);
 
-    // Highlight the selected factor points in dark red
-    map.setPaintProperty('crash-points', 'circle-color', '#ff0000'); // Dark Red for selected
-    map.setPaintProperty('crash-points', 'circle-opacity', 0.8);
-}
+
 
 
 
