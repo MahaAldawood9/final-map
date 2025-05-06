@@ -9,93 +9,80 @@ const mapOptions = {
 
 const map = new mapboxgl.Map(mapOptions);
 
-// add manhattan geojson
 map.on('load', () => {
-    map.addSource('mn', {
-        type: 'geojson',
-        data: './data/mn.geojson' 
-    });
+    const boroughs = {
+        mn: './data/mn.geojson',
+        bk: './data/bk.geojson',
+        qn: './data/qn.geojson',
+        si: './data/si.geojson',
+        bx: './data/bx.geojson'
+    };
 
-    map.addLayer({
-        id: 'mn',
-        type: 'circle',
-        source: 'mn',
-        paint: {
-            'circle-radius': 5,
-            'circle-color': '#ff6600'
-        }
-    });
+    for (const id in boroughs) {
+        map.addSource(id, {
+            type: 'geojson',
+            data: boroughs[id]
+        });
+
+        map.addLayer({
+            id: id,
+            type: 'circle',
+            source: id,
+            paint: {
+                'circle-radius': 6,
+                'circle-color': '#999', 
+                'circle-opacity': 0.2
+            }
+        });
+    }
 });
 
+function highlightBorough(id) {
+    const boroughs = ['mn', 'bk', 'qn', 'si', 'bx'];
+    selectedBoroughId = id;
 
-// add brooklyn geojson
-map.on('load', () => {
-    map.addSource('bk', {
-        type: 'geojson',
-        data: './data/bk.geojson' 
-    });
-
-    map.addLayer({
-        id: 'bk',
-        type: 'circle',
-        source: 'bk',
-        paint: {
-            'circle-radius': 5,
-            'circle-color': '#ff6600'
+    boroughs.forEach(b => {
+        if (b === id) {
+            map.setPaintProperty(b, 'circle-color', '#ff6600');
+            map.setPaintProperty(b, 'circle-opacity', 0.6);
+        } else {
+            map.setPaintProperty(b, 'circle-color', '#999999');
+            map.setPaintProperty(b, 'circle-opacity', 0.2);
         }
     });
-});
 
-// add queens geojson
-map.on('load', () => {
-    map.addSource('qn', {
-        type: 'geojson',
-        data: './data/qn.geojson' 
-    });
+    // Hide the sidebar and show the filter container
+    document.getElementById('sidebar-container').style.display = 'block'; 
+    document.getElementById('filter-container').style.display = 'block';
+    document.getElementById('selected-borough-label').innerText = boroughNameFromId(id);
 
-    map.addLayer({
-        id: 'qn',
-        type: 'circle',
-        source: 'qn',
-        paint: {
-            'circle-radius': 5,
-            'circle-color': '#ff6600'
-        }
-    });
-});
+    map.setFilter(id, null); 
+}
 
-// add staten island geojson
-map.on('load', () => {
-    map.addSource('si', {
-        type: 'geojson',
-        data: './data/si.geojson' 
-    });
+function boroughNameFromId(id) {
+    const names = {
+        mn: 'Manhattan',
+        bk: 'Brooklyn',
+        qn: 'Queens',
+        si: 'Staten Island',
+        bx: 'The Bronx'
+    };
+    return names[id];
+}
 
-    map.addLayer({
-        id: 'si',
-        type: 'circle',
-        source: 'si',
-        paint: {
-            'circle-radius': 5,
-            'circle-color': '#ff6600'
-        }
-    });
-});
+function filterCrashes(property) {
+    if (!selectedBoroughId) return;
+    map.setFilter(selectedBoroughId, ['>', ['get', property], 1]);
+}
 
-// add bronx geojson
-map.on('load', () => {
-    map.addSource('bx', {
-        type: 'geojson',
-        data: './data/bx.geojson' 
-    });
+function goBack() {
+    if (selectedBoroughId) {
+        map.setPaintProperty(selectedBoroughId, 'circle-color', '#999999');
+        map.setPaintProperty(selectedBoroughId, 'circle-opacity', 0.2);
+        map.setFilter(selectedBoroughId, null);
+    }
 
-    map.addLayer({
-        id: 'bx',
-        type: 'circle',
-        source: 'bx',
-        paint: {
-            'circle-radius': 5,
-            'circle-color': '#ff6600'
-        }
-    });
-});
+    selectedBoroughId = null;
+    document.getElementById('sidebar-container').style.display = 'block'; 
+    document.getElementById('filter-container').style.display = 'none';
+}
