@@ -13,28 +13,37 @@
 <body>
     <div id="sidebar-container">
         <div id="title">NYC Crashes</div>
-        <p>Select a Borough:</p>
-        <button onclick="highlightBorough('mn')">Manhattan</button>
-        <button onclick="highlightBorough('bk')">Brooklyn</button>
-        <button onclick="highlightBorough('qn')">Queens</button>
-        <button onclick="highlightBorough('si')">Staten Island</button>
-        <button onclick="highlightBorough('bx')">The Bronx</button>
+        <p>Filter by mode of vicitim</p>
+        <button onclick="filterCrashes('number_of_cyclist_killed')">Cyclists Killed</button>
+        <button onclick="filterCrashes('number_of_pedestrians_killed')">Pedestrians Killed</button>
+        <button onclick="resetFilter()">Show All</button>
         <div id="note">*Only parks larger than 6 acres displayed</div>
         <div id="park-info">Click on a park to see details here.</div>
 
-     
+
 
     </div>
 
 
-    <div id="filter-container">
-        <p>Filter Crashes in <span id="selected-borough-label"></span>:</p>
-        <button onclick="filterCrashes('number_of_cyclist_injured')">Cyclists Injured</button>
-        <button onclick="filterCrashes('number_of_cyclist_killed')">Cyclists Killed</button>
-        <button onclick="filterCrashes('number_of_pedestrians_injured')">Pedestrians Injured</button>
-        <button onclick="filterCrashes('number_of_pedestrians_killed')">Pedestrians Killed</button>
-        <button id="back-button" onclick="goBack()">← Back</button>
+    <div id="contributing-factor-container">
+        <p>Filter by Contributing Factor:</p>
+        <button onclick="filterByContributingFactor('Unsafe Speed')">Unsafe Speed</button>
+        <button onclick="filterByContributingFactor('Driver Inattention/Distraction')">Driver
+            Inattention/Distraction</button>
+        <button onclick="filterByContributingFactor('Traffic Control Disregarded')">Traffic Control Disregarded</button>
+        <button onclick="filterByContributingFactor('Alcohol Involvement')">Alcohol Involvement</button>
+        <button
+            onclick="filterByContributingFactor('Pedestrian/Bicyclist/Other Pedestrian Error/Confusion')">Pedestrian/Bicyclist/Other
+            Pedestrian Error/Confusion</button>
+        <button onclick="filterByContributingFactor('Failure to Yield Right-of-Way')">Failure to Yield
+            Right-of-Way</button>
+        <button onclick="filterByContributingFactor('Unspecified')">Unspecified</button>
+        <button onclick="filterByContributingFactor('Other')">Other</button>
+        <button onclick="resetFilters()">Reset Filters</button>
     </div>
+
+
+
 
 
 
@@ -49,5 +58,3 @@
 
 
 </html>
-
-

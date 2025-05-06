@@ -1,5225 +1,787 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "31/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.165405,
-            40.54443
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "31/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12689,
-            40.63721
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08751,
-            40.63827
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.166115,
-            40.560318
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08174,
-            40.639
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07551,
-            40.639652
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07695,
-            40.637783
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.113045,
-            40.567192
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.18032,
-            40.52609
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11704,
-            40.62894
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.086975,
-            40.647026
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07533,
-            40.642437
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1057,
-            40.581627
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.24722,
-            40.51376
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0745,
-            40.628807
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.196175,
-            40.535168
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "16/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.13057,
-            40.564583
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08621,
-            40.583572
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10955,
-            40.637985
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10977,
-            40.570465
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.120926,
-            40.606358
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "19/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09716,
-            40.631897
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08149,
-            40.64155
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "27/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12146,
-            40.610172
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.19204,
-            40.52809
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.23946,
-            40.52128
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.135445,
-            40.593796
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08621,
-            40.583572
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08619,
-            40.595116
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.098434,
-            40.564323
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16984,
-            40.561092
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12126,
-            40.62782
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10854,
-            40.632526
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "16/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.19849,
-            40.550373
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/02/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12848,
-            40.63367
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.137215,
-            40.572895
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "4/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07645,
-            40.601
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.116844,
-            40.632675
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "16/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08383,
-            40.61145
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.105606,
-            40.61118
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08447,
-            40.604786
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "8/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 1
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09108,
-            40.569927
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15002,
-            40.5377
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "8/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09716,
-            40.631897
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "8/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.113045,
-            40.567192
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07575,
-            40.63878
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11149,
-            40.568764
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.17186,
-            40.56152
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.109116,
-            40.57961
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.13189,
-            40.56439
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15403,
-            40.55707
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "19/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10168,
-            40.57862
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.207,
-            40.541744
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.13072,
-            40.626328
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12676,
-            40.56444
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07595,
-            40.627167
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11123,
-            40.629684
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11491,
-            40.565365
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.22334,
-            40.549023
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "14/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.17477,
-            40.526733
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "24/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10629,
-            40.61906
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "24/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08912,
-            40.646553
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.152664,
-            40.549374
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/01/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0885,
-            40.58479
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08185,
-            40.615112
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07632,
-            40.63887
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10977,
-            40.570465
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07418,
-            40.643497
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0764,
-            40.642273
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "19/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.200745,
-            40.547882
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16984,
-            40.561092
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "24/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.207306,
-            40.52528
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.19662,
-            40.529633
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.20798,
-            40.54167
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "27/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08111,
-            40.617786
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07045,
-            40.596733
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "27/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1453,
-            40.551563
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06999,
-            40.619297
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.104706,
-            40.630695
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16977,
-            40.5604
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.165924,
-            40.56029
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/03/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.19714,
-            40.519127
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.17477,
-            40.526733
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11788,
-            40.613438
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10977,
-            40.570465
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10793,
-            40.61978
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 2,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12848,
-            40.63367
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12123,
-            40.63422
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "8/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.106995,
-            40.57322
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09711,
-            40.573204
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.220535,
-            40.523643
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08605,
-            40.63143
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16984,
-            40.561092
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "4/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1231,
-            40.567966
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10455,
-            40.6347
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.079605,
-            40.624603
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.087395,
-            40.59219
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "16/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08179,
-            40.636623
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.110146,
-            40.56431
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07667,
-            40.62962
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12289,
-            40.61305
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.17743,
-            40.56246
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "8/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08891,
-            40.63029
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "24/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10824,
-            40.63093
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.142334,
-            40.553093
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/04/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.102325,
-            40.577946
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.086914,
-            40.641094
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07595,
-            40.627167
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09685,
-            40.580154
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.20769,
-            40.53424
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "24/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15002,
-            40.5377
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06663,
-            40.59034
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07595,
-            40.627167
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0788,
-            40.638268
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/06/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.224724,
-            40.5085
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.121826,
-            40.639175
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "31/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15761,
-            40.560726
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "31/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.14233,
-            40.553093
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "14/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08096,
-            40.624172
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08271,
-            40.623596
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "16/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07786,
-            40.630978
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15398,
-            40.534267
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07686,
-            40.644466
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10226,
-            40.575985
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12897,
-            40.63362
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "31/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08754,
-            40.63845
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07418,
-            40.643497
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.14409,
-            40.54754
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "19/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.097275,
-            40.634
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.079735,
-            40.62895
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15251,
-            40.533413
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08147,
-            40.646038
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.232376,
-            40.527805
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12265,
-            40.57548
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.235115,
-            40.520916
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07807,
-            40.62666
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06915,
-            40.618187
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06713,
-            40.606987
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.076126,
-            40.63643
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "25/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08655,
-            40.583733
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.20798,
-            40.54167
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10509,
-            40.575108
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12697,
-            40.62684
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07616,
-            40.64352
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/05/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12328,
-            40.627342
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "31/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.217125,
-            40.521427
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09581,
-            40.610996
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "31/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.083176,
-            40.635952
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.23924,
-            40.516525
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07648,
-            40.628544
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11158,
-            40.631344
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07119,
-            40.59649
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09261,
-            40.60323
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15002,
-            40.5377
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08303,
-            40.636024
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.086586,
-            40.59415
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "24/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09965,
-            40.588387
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08374,
-            40.63574
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16689,
-            40.560474
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "4/08/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12744,
-            40.626793
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "4/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.093414,
-            40.58524
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "27/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.116844,
-            40.611427
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08745,
-            40.639015
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.100395,
-            40.57969
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08069,
-            40.647324
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16984,
-            40.561092
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "8/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0893,
-            40.646458
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0981,
-            40.641792
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.164276,
-            40.543335
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.165405,
-            40.54443
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.164276,
-            40.543335
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16103,
-            40.555824
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15002,
-            40.5377
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16947,
-            40.55252
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "27/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.116196,
-            40.62894
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.086586,
-            40.59415
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09472,
-            40.5842
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08054,
-            40.645123
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.064445,
-            40.611805
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12064,
-            40.63426
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11128,
-            40.568954
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08924,
-            40.62343
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12374,
-            40.620968
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1234,
-            40.619167
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.099724,
-            40.6084
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.235,
-            40.521984
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08039,
-            40.62826
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.113045,
-            40.567192
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07623,
-            40.59809
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09287,
-            40.645473
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09078,
-            40.62774
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.116844,
-            40.611427
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.13963,
-            40.55613
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "14/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.099724,
-            40.644756
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08834,
-            40.61167
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/09/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.075966,
-            40.63197
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08477,
-            40.615105
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.14371,
-            40.54335
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.085754,
-            40.633953
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "16/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.120056,
-            40.560394
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12712,
-            40.612747
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "19/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06265,
-            40.609356
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06931,
-            40.603626
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11626,
-            40.629253
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1089,
-            40.565884
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12945,
-            40.63367
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "15/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.069,
-            40.604397
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 2,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.25027,
-            40.50958
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09936,
-            40.61242
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08729,
-            40.63781
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "25/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11375,
-            40.63743
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.100525,
-            40.577984
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10397,
-            40.59554
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11187,
-            40.57761
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "27/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1469,
-            40.576027
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16574,
-            40.5454
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.088936,
-            40.646664
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 1
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.109764,
-            40.570465
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11613,
-            40.61223
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11017,
-            40.622623
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.20699,
-            40.541744
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "1/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.13099,
-            40.627373
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/10/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.23564,
-            40.51439
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "4/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12478,
-            40.612164
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10393,
-            40.587074
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "8/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12342,
-            40.63415
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10219,
-            40.577682
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.109764,
-            40.570465
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12256,
-            40.61308
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "7/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.104546,
-            40.575653
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.20289,
-            40.53171
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1008,
-            40.61011
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 2,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12944,
-            40.633675
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 1
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09844,
-            40.58124
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11122,
-            40.629684
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.10872,
-            40.64513
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09205,
-            40.58657
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08575,
-            40.633957
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07091,
-            40.61228
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.17185,
-            40.561523
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08179,
-            40.61751
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.064964,
-            40.612503
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.18128,
-            40.54696
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09727,
-            40.634
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "20/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11227,
-            40.56146
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "25/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09793,
-            40.590313
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.178215,
-            40.56222
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1876,
-            40.54134
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "29/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15037,
-            40.551292
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "30/11/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.203094,
-            40.532482
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.145905,
-            40.54243
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15593,
-            40.535355
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09484,
-            40.583836
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.18512,
-            40.548893
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06376,
-            40.598934
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "3/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.17731,
-            40.561775
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "4/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11315,
-            40.56709
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "5/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11846,
-            40.62527
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08019,
-            40.629337
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.19301,
-            40.534325
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08739,
-            40.59219
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.19861,
-            40.54568
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "6/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.06924,
-            40.60925
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "2/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1297,
-            40.626617
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.120056,
-            40.560394
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "9/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.085594,
-            40.59176
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.069,
-            40.604397
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08212,
-            40.62626
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "10/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.217094,
-            40.547794
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 1
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08493,
-            40.58559
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16974,
-            40.56025
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07654,
-            40.63095
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16346,
-            40.543777
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "11/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.19769,
-            40.558887
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "16/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.08307,
-            40.606155
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "12/07/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.09142,
-            40.581547
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11804,
-            40.564922
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "17/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.1654,
-            40.54443
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07696,
-            40.62016
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.109764,
-            40.570465
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "19/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.12244,
-            40.612324
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16983,
-            40.561092
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "19/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.21556,
-            40.543606
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "18/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.16974,
-            40.56025
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "21/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.11978,
-            40.575813
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "13/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 1
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.240585,
-            40.511494
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "22/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 1,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 0,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.109764,
-            40.570465
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "23/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0885,
-            40.58479
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "26/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.07879,
-            40.63827
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "crash_date": "28/12/24",
-          "borough": "STATEN ISLAND",
-          "number_of_cyclist_injured": 0,
-          "number_of_cyclist_killed": 0,
-          "number_of_pedestrians_injured": 1,
-          "number_of_pedestrians_killed": 0
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.15084,
-            40.549965
-          ]
-        }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "05/26/2022",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.063255,
+          40.613373
+        ]
       }
-    ]
-  }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "10/14/2022",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unsafe Speed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13136,
+          40.618294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/15/2022",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07565,
+          40.626663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "03/30/2023",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09936,
+          40.61242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "04/29/2023",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.19714,
+          40.519127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "08/26/2023",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 1,
+        "number_of_pedestrians_killed": 0,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.068665,
+          40.617516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "1/08/24",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Driver Inattention/Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09108,
+          40.569927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "01/13/2021",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Driver Inattention/Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07565,
+          40.626663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "01/29/2021",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06931,
+          40.603615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "11/30/2020",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11377,
+          40.566494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "10/15/2020",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Driver Inattention/Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08837,
+          40.59075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "03/14/2020",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Alcohol Involvement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.12785,
+          40.62474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "07/23/2019",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 1,
+        "number_of_pedestrians_killed": 0,
+        "contributing_factor_vehicle_1": "Traffic Control Disregarded"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.12596,
+          40.633858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "3/09/19",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.176506,
+          40.544487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "2/04/19",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Driver Inattention/Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13603,
+          40.55682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/19/2018",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.158844,
+          40.53759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/31/2018",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.12712,
+          40.612747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "06/29/2018",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unsafe Speed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.075356,
+          40.63313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/14/2017",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0777,
+          40.640694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "6/11/17",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.23668,
+          40.513874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "6/03/17",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10919,
+          40.57104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "2/06/17",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.21177,
+          40.546207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "09/30/2016",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07565,
+          40.626663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "08/23/2016",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.088875,
+          40.59018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "02/16/2016",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 1,
+        "number_of_pedestrians_killed": 0,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1370436,
+          40.5729078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/15/2015",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1281176,
+          40.5565344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "10/05/15",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0661328,
+          40.6140876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "10/05/15",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 2,
+        "contributing_factor_vehicle_1": "Driver Inattention/Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1613509,
+          40.5293737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "09/14/2015",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 1,
+        "number_of_pedestrians_killed": 0,
+        "contributing_factor_vehicle_1": "Tow Hitch Defective"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1345595,
+          40.5512542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "08/17/2015",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1137614,
+          40.5664967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "11/15/2014",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.202785,
+          40.5166242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "07/31/2014",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0650758,
+          40.6012042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "07/18/2014",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1232208,
+          40.6292495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "6/09/14",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Driver Inattention/Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1444428,
+          40.5438696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "01/26/2014",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Alcohol Involvement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.062054,
+          40.5968498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/27/2013",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1272083,
+          40.5647067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "8/09/13",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0958614,
+          40.595951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "2/01/13",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Failure to Yield Right-of-Way"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0940362,
+          40.5783776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "11/10/12",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Passenger Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1554375,
+          40.6084351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "10/03/12",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.137232,
+          40.6242711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "8/03/12",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1211698,
+          40.6088332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "10/30/2024",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Driver Inattention/Distraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.109764,
+          40.570465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "11/13/2024",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.09844,
+          40.58124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/11/24",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08493,
+          40.58559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "12/13/2024",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.240585,
+          40.511494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "crash_date": "3/07/25",
+        "borough": "STATEN ISLAND",
+        "number_of_cyclist_killed": 0,
+        "number_of_pedestrians_killed": 1,
+        "contributing_factor_vehicle_1": "Unspecified"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08739,
+          40.59219
+        ]
+      }
+    }
+  ]
+}
