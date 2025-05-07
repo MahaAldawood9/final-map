@@ -1,11 +1,8 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
-}
-
-body {
     font-family: Helvetica;
-    margin: 0;
 }
 
 #map-container {
@@ -19,97 +16,68 @@ body {
     top: 30px;
     left: 50px;
     z-index: 1;
-    background-color: rgb(211, 211, 211);
+    background-color: rgba(211, 211, 211, 0.9);
     padding: 20px;
     border-radius: 10px;
-    max-width: 400px;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
-}
-
-
-#title {
-    font-size: 29px;
-    font-weight: bold;
-}
-
-
-#subtitle {
-
-    font-size: 16px;
-    color: #000000;
-    padding-top: 2px;
-}
-
-#instructions {
-    border-top: 1px solid #ccc;
-    margin-top: 15px;
-    font-size: 14px;
-    color: #333;
-    font-style: italic;
-    padding-top: 5px;
-}
-
-
-/* name of the park */
-#park-info {
-    margin-top: 15px;
-    font-size: 14px;
-    color: #333;
-    font-style: italic;
-    border-top: 1px solid #ccc;
-    padding-top: 10px;
-}
-
-/* type of park */
-#park-info h3 {
-    margin: 0;
-    font-size: 16px;
-}
-
-
-#contributing-factor-container {
-    position: absolute;
-    top: 350px;
-    left: 50px; 
-    background-color: rgb(211, 211, 211);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    font-size: 14px;
     max-width: 300px;
     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
-
-
-
 }
 
+#sidebar-container:hover {
+    transform: scale(1.05);
+}
 
+#title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-.button-group {
-    display: flex;
-    gap: 10px;
-    margin: 10px 0;
-    flex-wrap: wrap;
-  }
-  
-  .button-group button {
-    background-color: #ff6600;
-    color: white;
-    border: none;
-    padding: 10px 16px;
-    border-radius: 6px;
+#subtitle {
     font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+    margin-bottom: 15px;
+}
 
-  .button-group button:hover {
-    background-color: #ff0000;
-  }
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.button-group,
+.button-group2,
+.button-group3 {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+button.active {
+    background-color: #ff6600;
+}
+
+#yearSlider {
+    width: 100%;
+    margin: 10px 0;
+    background: #ddd;
+
+}
 
 
 

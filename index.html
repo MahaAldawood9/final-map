@@ -2,61 +2,55 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NYC Crash Map</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NYC Crash Map</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.css" rel="stylesheet">
 </head>
 
-
 <body>
-    <div id="sidebar-container">
-        <div id="title">Traffic Deaths in NYC</div>
-        <div id="subtitle">Track traffic fatalities across NYC over the past decade</div>
+  <div id="sidebar-container">
+    <div id="title">Traffic Deaths in NYC</div>
+    <div id="subtitle">Track traffic fatalities across NYC over the past decade</div>
+    <div id="instructions">Click a marker to see the number of people killed, contributing factor, and date</div>
 
-        <h3>Select Victim Type</h3>
-        <p>Click a button to filter the map by the transportation mode of the victim:</p>
-        <div class="button-group">
-          <button onclick="filterCrashes('number_of_cyclist_killed')">Cyclists</button>
-          <button onclick="filterCrashes('number_of_pedestrians_killed')">Pedestrians</button>
-          <button onclick="resetFilter()">Show All</button>
-        </div>
-
-        <div id="instructions">Click a marker to see number of people killed, contributing factor, and date</div>
-
-        <p>Filter by Contributing Factor:</p>
-        <div class="button-group">
-          <button onclick="filterByContributingFactor('Unsafe Speed')">Unsafe Speed</button>
-          <button onclick="filterByContributingFactor('Driver Inattention/Distraction')">Driver Inattention/Distraction</button>
-          <button onclick="filterByContributingFactor('Traffic Control Disregarded')">Traffic Control Disregarded</button>
-          <button onclick="filterByContributingFactor('Alcohol Involvement')">Alcohol Involvement</button>
-          <button onclick="filterByContributingFactor('Pedestrian/Bicyclist/Other Pedestrian Error/Confusion')">
-            Pedestrian/Bicyclist Error
-          </button>
-          <button onclick="filterByContributingFactor('Failure to Yield Right-of-Way')">Failure to Yield Right-of-Way</button>
-          <button onclick="filterByContributingFactor('Unspecified')">Unspecified</button>
-          <button onclick="filterByContributingFactor('Other')">Other</button>
-          <button onclick="resetFilters()">Reset Filters</button>
-        </div>
+    <h3>Explore by Victim Type</h3>
+    <div class="button-group">
+      <button onclick="filterByVictimType(event, 'number_of_cyclist_killed')">Cyclist</button>
+      <button onclick="filterByVictimType(event, 'number_of_pedestrians_killed')">Pedestrian</button>
+      <button onclick="showAllVictimTypes()">Show All</button>   <!-- To reset and show all -->
+  </div>
 
 
+ 
+  
 
+    <h3>Explore by Contributing Factor</h3>
+    <div class="button-group2">
+      <button onclick="filterByContributingFactor('Unsafe Speed')">Unsafe Speed</button>
+      <button onclick="filterByContributingFactor('Driver Inattention/Distraction')">Driver Inattention</button>
+      <button onclick="filterByContributingFactor('Traffic Control Disregarded')">Traffic Control Disregarded</button>
+      <button onclick="filterByContributingFactor('Alcohol Involvement')">Alcohol Involvement</button>
+      <button onclick="filterByContributingFactor('Pedestrian/Bicyclist/Other Pedestrian Error/Confusion')">Pedestrian/Bicyclist Error</button>
+      <button onclick="filterByContributingFactor('Failure to Yield Right-of-Way')">Failure to Yield</button>
+      <button onclick="filterByContributingFactor('Unspecified')">Unspecified</button>
     </div>
 
+    <h3>Explore by Year</h3>
+    <strong><span id="yearValue">2025</span></strong>
+    <input type="range" id="yearSlider" min="2012" max="2025" value="year" step="1">
 
+    <div class="button-group3">
+      <button onclick="resetFilters()">Reset Filters</button>
+    </div>
+  </div>
 
+  <div id="map-container"></div>
 
-
-
-
-    <div id="map-container"></div>
-
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.js"></script>
-    <script src="data.js"></script>
-    <script src="scripts.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.js"></script>
+  <script src="data.js"></script>
+  <script src="scripts.js"></script>
 </body>
-
-
 
 </html>
