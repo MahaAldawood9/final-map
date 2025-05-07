@@ -85,16 +85,15 @@ function filterByContributingFactor(factor) {
 
 buttons.forEach(button => {
   button.addEventListener('click', () => {
-    // Remove the 'active' class from all buttons
+
     buttons.forEach(btn => btn.classList.remove('active'));
 
-    // Add the 'active' class to the clicked button
+
     button.classList.add('active');
   });
 });
 
 
-    // Set map paint
     map.setPaintProperty('crash-points', 'circle-color', [
         'case',
         ['==', ['get', 'contributing_factor_vehicle_1'], factor],
@@ -195,5 +194,4 @@ function resetFilters() {
 
 }
 
-document.getElementById('yearSlider').value = 2025;
-updateYearDisplay(2025);
+
