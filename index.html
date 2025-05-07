@@ -9,64 +9,72 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.11.0/mapbox-gl.css" rel="stylesheet">
 </head>
 
+
+<!-- Sidebar container includes title and controls -->
 <body>
   <div id="sidebar-container">
     <div id="title">Traffic Deaths in NYC</div>
-    <div id="instructions"> <p>This is map to show traffic deaths in NYC. Users may interact with the map in two ways: </p>
+    <div id= "subtitle"><p>Explore crash data in New York City, focusing on pedestrian and cyclist fatalities. Use the filters to analyze data by year, victim type, and factors.</p>
 
-      
-<p class="inst-point">
-1.  Click the buttons below to explore by victim type or contributing factor
-</p>
-     
-<p class="inst-point">
-2. Click a marker on the map to see the number of people killed, contributing factor, and date
-  </p>
-     
+    </div>
+    <div id="instructions">
+      <p>Users may interact with the map in two ways:</p>
+      <p>
+        1. Click the buttons below to explore by victim type or contributing factor</p>
+      <p>
+        2. Click a marker on the map to see the number of people killed, contributing factor, and date</p>
 
-  </div>
+    </div>
 
+    <!-- exploring by vicitm buttons -->
     <h3>Explore by Victim Type</h3>
     <div class="button-group">
       <button onclick="filterByVictimType(event, 'number_of_cyclist_killed')">Cyclist</button>
       <button onclick="filterByVictimType(event, 'number_of_pedestrians_killed')">Pedestrian</button>
-      <button onclick="showAllVictimTypes()">Show All</button>   <!-- To reset and show all -->
-  </div>
-
-
- 
-  
-
-    <h3>Explore by Contributing Factor</h3>
-    <div class="button-group2">
-      <button onclick="filterByContributingFactor('Unsafe Speed')">Unsafe Speed</button>
-      <button onclick="filterByContributingFactor('Driver Inattention/Distraction')">Driver Inattention</button>
-      <button onclick="filterByContributingFactor('Traffic Control Disregarded')">Traffic Control Disregarded</button>
-      <button onclick="filterByContributingFactor('Alcohol Involvement')">Alcohol Involvement</button>
-      <button onclick="filterByContributingFactor('Pedestrian/Bicyclist/Other Pedestrian Error/Confusion')">Pedestrian/Bicyclist Error</button>
-      <button onclick="filterByContributingFactor('Failure to Yield Right-of-Way')">Failure to Yield</button>
-      <button onclick="filterByContributingFactor('Unspecified')">Unspecified</button>
+      <button onclick="showAllVictimTypes()">Show All</button> <!-- To reset and show all -->
     </div>
 
 
 
-    <div class="button-group3">
+  <!-- exploring by contributing factors buttons -->
+    <h3>Explore by Contributing Factor</h3>
+    <div class="button-group">
+      <button onclick="filterByContributingFactor('Unsafe Speed')">Unsafe Speed</button>
+      <button onclick="filterByContributingFactor('Driver Inattention/Distraction')">Driver Inattention</button>
+      <button onclick="filterByContributingFactor('Traffic Control Disregarded')">Traffic Control Disregarded</button>
+      <button onclick="filterByContributingFactor('Alcohol Involvement')">Alcohol Involvement</button>
+      <button
+        onclick="filterByContributingFactor('Pedestrian/Bicyclist/Other Pedestrian Error/Confusion')">Pedestrian/Bicyclist
+        Error</button>
+      <button onclick="filterByContributingFactor('Failure to Yield Right-of-Way')">Failure to Yield</button>
+      <button onclick="filterByContributingFactor('Unspecified')">Unspecified</button>
+    </div>
+
+    <!-- reset filter button -->
+    <h3>Reset Filters</h3>
+
+    <div class="button-group">
       <button onclick="resetFilters()">Reset Filters</button>
     </div>
   </div>
 
 
+  <!-- year container -->
   <div id="year-slider-container">
     <h3>Explore by Year</h3>
     <strong><span id="yearValue">2025</span></strong>
-    <input type="range" id="yearSlider" min="2012" max="2025" value="year" step="1">
-</div>
-
-
-  <div id="source-container">
-    <div id="instructions">Source: <a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data" target="_blank">NYC Open Data</a></div>
+    <input type="range" id="yearSlider" min="2012" max="2025" value="2025" step="1">
+    <p class="small-note">Click on Reset Filters to show Total</p>
   </div>
+
   
+<!-- source -->
+  <div id="source-container">
+    <div id="instructions">Source: <a
+        href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data"
+        target="_blank">NYC Open Data</a></div>
+  </div>
+
 
 
 

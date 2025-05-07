@@ -7,28 +7,33 @@ const map = new mapboxgl.Map({
     zoom: 10
 });
 
+let activePopup = null;
+let activeVictimType = null;
+let activeContributingFactor = null;
 
 
+
+// loading the data 
 map.on('load', () => {
     map.addSource('deaths', {
         type: 'geojson',
         data: './data/deaths.geojson'
     });
 
+    // add a layer to display the crash points 
     map.addLayer({
         id: 'crash-points',
         type: 'circle',
         source: 'deaths',
         paint: {
-            'circle-radius': 4,
+            'circle-radius': 3,
             'circle-color': '#999999',
-            'circle-opacity': 0.4
+            'circle-opacity': 0.2
         }
     });
 });
 
-let activeVictimType = null;
-let activeContributingFactor = null;
+
 
 // filter by victim type
 function filterByVictimType(event, property) {
@@ -36,48 +41,64 @@ function filterByVictimType(event, property) {
 
 
     document.querySelectorAll('.button-group button').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
+    event.currentTarget.classList.add('active');
 
 
+    // Update circle color and opacity based on the selected victim type
     map.setPaintProperty('crash-points', 'circle-color', [
         'case',
         ['>', ['get', property], 0],
-        '#ff6600', 
-        '#999999'  
+        '#ff6600',
+        '#999999'
     ]);
 
     map.setPaintProperty('crash-points', 'circle-opacity', [
         'case',
-        ['>', ['get', property], 0], 
-        0.4, 
-        0.2 
+        ['>', ['get', property], 0],
+        0.4,
+        0.2
     ]);
 }
 
+
+// Show all button
 function showAllVictimTypes() {
-    // Reset active victim type
+
     activeVictimType = null;
 
-    // Remove active button class
     document.querySelectorAll('.button-group button').forEach(btn => btn.classList.remove('active'));
 
-    //default 
     map.setPaintProperty('crash-points', 'circle-color', '#999999');
     map.setPaintProperty('crash-points', 'circle-opacity', 0.4);
 }
+
 
 
 // Contributing factor filter
 function filterByContributingFactor(factor) {
     activeContributingFactor = factor;
 
-    document.querySelectorAll('.button-group2 button').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
+    document.querySelectorAll('.button-group button').forEach(btn => btn.classList.remove('active'));
 
+
+    const buttons = document.querySelectorAll('button');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Remove the 'active' class from all buttons
+    buttons.forEach(btn => btn.classList.remove('active'));
+
+    // Add the 'active' class to the clicked button
+    button.classList.add('active');
+  });
+});
+
+
+    // Set map paint
     map.setPaintProperty('crash-points', 'circle-color', [
         'case',
         ['==', ['get', 'contributing_factor_vehicle_1'], factor],
-        '#ff0000',
+        '#ff6600',
         '#999999'
     ]);
 
@@ -88,6 +109,7 @@ function filterByContributingFactor(factor) {
         0.2
     ]);
 }
+
 
 // Year filtering
 document.getElementById('yearSlider').addEventListener('input', (e) => {
@@ -106,24 +128,11 @@ document.getElementById('yearSlider').addEventListener('input', (e) => {
 });
 
 function updateYearDisplay(year) {
-    const label = year === 2025 ? 'Total' : year;
+    const label = year === 2025 ? '2025' : year;
     document.getElementById('yearValue').textContent = label;
 }
 
-// Reset all filters
-function resetFilters() {
-    activeVictimType = null;
-    activeContributingFactor = null;
 
-    document.querySelectorAll('.button-group button, .button-group2 button').forEach(btn => btn.classList.remove('active'));
-
-    map.setPaintProperty('crash-points', 'circle-color', '#999999');
-    map.setPaintProperty('crash-points', 'circle-opacity', 0.4);
-    map.setFilter('crash-points', undefined);
-
-    document.getElementById('yearSlider').value = 2025;
-    updateYearDisplay(2025);
-}
 
 // Popups
 map.on('click', 'crash-points', (e) => {
@@ -142,12 +151,49 @@ map.on('click', 'crash-points', (e) => {
     const factor = props.contributing_factor_vehicle_1 || 'Unknown';
     const date = props.crash_date || 'Unknown date';
 
-    new mapboxgl.Popup()
+    // Remove any existing popup
+    if (activePopup) {
+        activePopup.remove();
+    }
+
+    activePopup = new mapboxgl.Popup({ className: 'custom-popup' })
         .setLngLat(e.lngLat)
-        .setHTML(`<strong>${killed}</strong> ${victim} Killed due to <strong>${factor}</strong> on ${date}`)
+        .setHTML(`
+      <div>
+        <strong>${killed}</strong> ${victim} killed<br>
+        due to <strong>${factor}</strong><br>
+        on ${date}
+      </div>
+    `)
         .addTo(map);
+
 });
 
+
+
+
+
+// Reset all filters
+function resetFilters() {
+    activeVictimType = null;
+    activeContributingFactor = null;
+
+    document.querySelectorAll('.button-group button').forEach(btn => btn.classList.remove('active'));
+
+    map.setPaintProperty('crash-points', 'circle-color', '#999999');
+    map.setPaintProperty('crash-points', 'circle-opacity', 0.4);
+    map.setFilter('crash-points', undefined);
+
+    document.getElementById('yearSlider').value = 2025;
+    updateYearDisplay(2025);
+
+    // Clear active popup if it exists
+    if (activePopup) {
+        activePopup.remove();
+        activePopup = null;
+    }
+
+}
 
 document.getElementById('yearSlider').value = 2025;
 updateYearDisplay(2025);
