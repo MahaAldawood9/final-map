@@ -12,8 +12,19 @@
 <body>
   <div id="sidebar-container">
     <div id="title">Traffic Deaths in NYC</div>
-    <div id="subtitle">Track traffic fatalities across NYC over the past decade</div>
-    <div id="instructions">Click a marker to see the number of people killed, contributing factor, and date</div>
+    <div id="instructions"> <p>This is map to show traffic deaths in NYC. Users may interact with the map in two ways: </p>
+
+      
+<p class="inst-point">
+1.  Click the buttons below to explore by victim type or contributing factor
+</p>
+     
+<p class="inst-point">
+2. Click a marker on the map to see the number of people killed, contributing factor, and date
+  </p>
+     
+
+  </div>
 
     <h3>Explore by Victim Type</h3>
     <div class="button-group">
@@ -37,14 +48,27 @@
       <button onclick="filterByContributingFactor('Unspecified')">Unspecified</button>
     </div>
 
-    <h3>Explore by Year</h3>
-    <strong><span id="yearValue">2025</span></strong>
-    <input type="range" id="yearSlider" min="2012" max="2025" value="year" step="1">
+
 
     <div class="button-group3">
       <button onclick="resetFilters()">Reset Filters</button>
     </div>
   </div>
+
+
+  <div id="year-slider-container">
+    <h3>Explore by Year</h3>
+    <strong><span id="yearValue">2025</span></strong>
+    <input type="range" id="yearSlider" min="2012" max="2025" value="year" step="1">
+</div>
+
+
+  <div id="source-container">
+    <div id="instructions">Source: <a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data" target="_blank">NYC Open Data</a></div>
+  </div>
+  
+
+
 
   <div id="map-container"></div>
 

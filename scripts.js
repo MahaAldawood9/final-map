@@ -49,7 +49,7 @@ function filterByVictimType(event, property) {
     map.setPaintProperty('crash-points', 'circle-opacity', [
         'case',
         ['>', ['get', property], 0], 
-        0.7, 
+        0.4, 
         0.2 
     ]);
 }
@@ -84,8 +84,8 @@ function filterByContributingFactor(factor) {
     map.setPaintProperty('crash-points', 'circle-opacity', [
         'case',
         ['==', ['get', 'contributing_factor_vehicle_1'], factor],
-        0.7,
-        0.4
+        0.4,
+        0.2
     ]);
 }
 
